@@ -1,27 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Apr 11 17:23:12 2016
-With ON-OFF segments it seems no imporovement Since adaptive segment sizes already has compensate this you can mention adaptive sampel size h
-
-has compensated thiis  and check differnr segment sizes
+With ON-OFF segments it seems no imporovement Since adaptive segment sizes already have compensated for this
 
 """
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
 def MP_map_reduce_adaptive_segment_size(input_signal, maxIter,filter_bank,no_segments):
-    
-    #, maxIter, gammatone_filterbank, no_segments    
-    #% Localized matching pursuit- Frame based=> much faster than MP in 50
-    #% iterations you reas 20 dB SNR  while with ordinary MP it is not
-    #% possibnle- sparsity of the coefficients still to be checked: for this
-    #% goal we hould have an iteratibe method is odd iteration odd segments and
-    #% in even itwertion even segments
-    #% Using the adptive segnent size appch- We can get the same sparseity
-    #% quality as MP but in the 3 percent timing required by MP this idea can be
-    #% used for audio fingerprining based on STRF 
-    #% 
-    
+        
     length_signal = len(input_signal) # numpy len
     kernel_length = filter_bank.shape[1]
     num_bases = filter_bank.shape[0]

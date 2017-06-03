@@ -2,29 +2,9 @@
 """
 Created on Mon Apr 11 17:24:00 2016
 
-@author: usef
+@author: Yousof Erfani, University of Sherbrooke, Canada
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr  5 12:55:57 2016
-
-@author: usef
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  3 18:35:40 2016
-
-@author: usef
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 13:15:02 2016
-
-@author: usef
-"""
 ##############################################################################
 # te4st wavread-wavwrtie and plot
 import scipy.io.wavfile as Wav # wavread and write

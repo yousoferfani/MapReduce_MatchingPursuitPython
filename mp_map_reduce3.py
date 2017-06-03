@@ -2,22 +2,10 @@
 """
 Created on Tue Apr  5 12:55:13 2016
 
-@author: usef
+@author: Yousof Erfani, Universire de Sherbrooke
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  3 18:34:45 2016
 
-@author: usef
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 16:13:40 2016
-
-@author: usef
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal

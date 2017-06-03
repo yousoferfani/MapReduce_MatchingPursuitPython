@@ -2,7 +2,7 @@
 """
 Created on Mon Mar 28 16:13:40 2016
 
-@author: usef
+@author: yousof  erfani, universite de sherbrooke
 """
 import numpy as np
 import matplotlib.pyplot as plt

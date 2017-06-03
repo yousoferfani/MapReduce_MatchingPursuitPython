@@ -2,7 +2,7 @@
 """
 Created on Mon Mar 28 13:15:02 2016
 
-@author: usef
+@author: Yousof Erfani, Universite de Sherbrookes
 """
 ##############################################################################
 # te4st wavread-wavwrtie and plot

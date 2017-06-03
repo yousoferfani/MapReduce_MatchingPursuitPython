@@ -2,7 +2,7 @@
 """
 Created on Wed Apr 20 18:54:14 2016
 
-@author: usef
+@author: Yousof Erfani, University of Sherbrooke, Canada
 """
 
 ##############################################################################
