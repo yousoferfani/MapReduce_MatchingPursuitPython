@@ -10,14 +10,14 @@ from scipy import signal
 
 def MP(input_signal, maxIter, gammatone_filterbank):
     projection1 = np.zeros( (25, len(input_signal) + gammatone_filterbank.shape[1] - 1 ))
-    selected_max_coefficient=[]
-    selected_time_indx=[]
-    selected_channel_indx=[]
-    cnt=0
+    selected_max_coefficient = []
+    selected_time_indx = []
+    selected_channel_indx = []
+    cnt = 0
 
 
-    length_signal= len(input_signal)
-    kernel_length= gammatone_filterbank.shape[1]
+    length_signal = len(input_signal)
+    kernel_length = gammatone_filterbank.shape[1]
     
     num_bases= gammatone_filterbank.shape[0]
     residual= input_signal.transpose()
